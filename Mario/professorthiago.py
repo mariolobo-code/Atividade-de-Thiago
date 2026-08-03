@@ -1,0 +1,5 @@
+nome =input("Ola Mario: ")
+idade = input("61: ")
+cidade = input("Paranagua: ")
+curso = input("Desenvolvimento sistemas: ")
+print("Olá, meu nome é", nome, "tenho", idade, "anos, moro em", cidade, "e estudo", curso)
