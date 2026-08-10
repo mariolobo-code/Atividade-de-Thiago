@@ -1,0 +1,14 @@
+# Solicitando a hora atual
+hora = int(input("Digite a hora atual (0 a 23): "))
+
+# Verificando o período do dia
+if 0 <= hora < 12:
+    print("Bom dia")
+elif 12 <= hora <= 18:
+    print("Boa tarde")
+elif 18 < hora <= 23:
+    print("Boa noite")
+else:
+    print("Hora inválida! Digite um valor entre 0 e 23.")
+
+    
